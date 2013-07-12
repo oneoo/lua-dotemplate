@@ -11,9 +11,9 @@ This library is considered experimental and still under active development.
 Install
 =======
 
-$tar zxf lua-dotemplate-*.tar.gz
-$cd lua-dotemplate-*
-$sudo make install
+    $tar zxf lua-dotemplate-*.tar.gz
+    $cd lua-dotemplate-*
+    $sudo make install
 
 Synopsis
 ========
