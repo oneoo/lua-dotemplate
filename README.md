@@ -50,10 +50,10 @@ Lua Script
     local user = 'one'
     
     --parse and print template
-    local rt, err = dot('./index.html') -- or dotemplate(file)
+    local rt, err = dot('./t.html') -- or dotemplate(file)
     
     --parse and get template return htmls
-    local html, err = dotemplate('./index.html', true)
+    local html, err = dotemplate('./t.html', true)
 
 HTML Synopsis
 ===
