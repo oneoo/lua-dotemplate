@@ -10,7 +10,7 @@ datas = {
 
 user = 'one' -- don't set local obj!, the template script can't get local objects
     
-dotemplate('index.html')
+dotemplate('t.html')
 print('======================================')
-print(dotemplate('index.html',1))
+print(dotemplate('t.html',1))
 print('end!')

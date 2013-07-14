@@ -1,0 +1,11 @@
+<body>
+    {{if user then}}Hi, {{=user}}.
+    {{else}}
+    <a href="/login">Login</a>
+    {{end}}
+    
+    #for loop
+    {{for k,v in ipairs(datas) do}}
+        {{=v.name}}<br/>
+    {{end}}
+</body>{{include t-include.html}}
