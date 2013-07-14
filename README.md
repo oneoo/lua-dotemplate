@@ -31,7 +31,7 @@ Template File
             {{=v.name}}<br/>
         {{end}}
     </body>
-    {{include footer.html}}
+    {{include t-include.html}}
 
 Lua Script
 ---
